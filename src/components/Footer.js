@@ -45,7 +45,7 @@ export default function Footer(props) {
   return (
     <>
       <div class="container-fluid bg-dark fixed-bottom text-dm px-4 text-white">
-        <div className="row d-flex flex-wrap justify-content-between align-items-center py-3 mb-2 border-top border-dark">
+        <div className="row d-flex flex-wrap justify-content-between align-items-center pb-2 pt-3 border-top border-dark">
           <div className="col-md-4 d-none d-lg-block">
             <div class="card bg-dark border-0">
               <div class="card-body">
@@ -78,7 +78,7 @@ export default function Footer(props) {
                 ></i>
                 {props.newsong}
               </div>
-              <div class="card-body">
+              <div class="card-body pb-2">
                 <blockquote class="blockquote mb-0 opacity-75">
                   <div className="app-container">
                     <Slider percentage={percentage} onChange={onChange} />
