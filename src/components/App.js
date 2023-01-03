@@ -20,13 +20,13 @@ function App() {
                 <Route path="/songbird" element={<Main />} />
               </Routes>
               <Routes>
-                <Route path="/search" element={<Search />} />
+                <Route path="/songbird/search" element={<Search />} />
               </Routes>
               <Routes>
-                <Route path="/lib" element={<Library />} />
+                <Route path="/songbird/lib" element={<Library />} />
               </Routes>
               <Routes>
-                <Route path="/liked" element={<Liked />} />
+                <Route path="/songbird/liked" element={<Liked />} />
               </Routes>
             </div>
           </div>

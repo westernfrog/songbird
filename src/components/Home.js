@@ -38,13 +38,19 @@ export default function Home() {
               </Link>
             </li>
             <li className="list-group-item border-0 ps-0 bg-black">
-              <Link to="/search" className="text-decoration-none text-light">
+              <Link
+                to="/songbird/search"
+                className="text-decoration-none text-light"
+              >
                 <i className="fa-solid fa-magnifying-glass fa-lg pe-3"></i>
                 Search
               </Link>
             </li>
             <li className="list-group-item border-0 ps-0 bg-black">
-              <Link to="/lib" className="text-decoration-none text-light">
+              <Link
+                to="/songbird/lib"
+                className="text-decoration-none text-light"
+              >
                 <i className="fa-solid fa-bookmark fa-lg pe-3"></i>
                 Your Library
               </Link>
@@ -59,7 +65,10 @@ export default function Home() {
               </a>
             </li>
             <li className="list-group-item border-0 ps-0 bg-black">
-              <Link to="/liked" className="text-decoration-none text-light">
+              <Link
+                to="/songbird/liked"
+                className="text-decoration-none text-light"
+              >
                 <i
                   className="fa-solid fa-heart fa-lg pe-3"
                   style={{ color: "#EB455F" }}
