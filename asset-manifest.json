@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/songbird/static/css/main.91d0016b.css",
+    "main.js": "/songbird/static/js/main.01550b23.js",
+    "static/media/song1.mp3": "/songbird/static/media/song1.0f66bdf3ab41bcccdac1.mp3",
+    "index.html": "/songbird/index.html",
+    "main.91d0016b.css.map": "/songbird/static/css/main.91d0016b.css.map",
+    "main.01550b23.js.map": "/songbird/static/js/main.01550b23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91d0016b.css",
+    "static/js/main.01550b23.js"
+  ]
+}
