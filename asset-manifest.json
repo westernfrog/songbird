@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/songbird/static/css/main.168954fc.css",
-    "main.js": "/songbird/static/js/main.b504ee71.js",
+    "main.css": "/songbird/static/css/main.91d0016b.css",
+    "main.js": "/songbird/static/js/main.444d4b74.js",
     "static/media/song1.mp3": "/songbird/static/media/song1.0f66bdf3ab41bcccdac1.mp3",
     "index.html": "/songbird/index.html",
-    "main.168954fc.css.map": "/songbird/static/css/main.168954fc.css.map",
-    "main.b504ee71.js.map": "/songbird/static/js/main.b504ee71.js.map"
+    "main.91d0016b.css.map": "/songbird/static/css/main.91d0016b.css.map",
+    "main.444d4b74.js.map": "/songbird/static/js/main.444d4b74.js.map"
   },
   "entrypoints": [
-    "static/css/main.168954fc.css",
-    "static/js/main.b504ee71.js"
+    "static/css/main.91d0016b.css",
+    "static/js/main.444d4b74.js"
   ]
 }
