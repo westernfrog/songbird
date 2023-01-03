@@ -17,7 +17,7 @@ function App() {
             </div>
             <div className="col-md-9 px-0">
               <Routes>
-                <Route path="/" element={<Main />} />
+                <Route path="/songbird" element={<Main />} />
               </Routes>
               <Routes>
                 <Route path="/search" element={<Search />} />

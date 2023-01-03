@@ -102,7 +102,7 @@ export default function Footer(props) {
             </div>
           </div>
           <div className="col-md-4">
-            <ul class="nav justify-content-end">
+            <ul class="nav d-flex justify-content-lg-end justify-content-md-evenly">
               <li class="nav-item">
                 <a
                   href="https://github.com/westernfrog/"

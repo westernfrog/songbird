@@ -33,7 +33,7 @@ export default function Home() {
         <nav id="sidebarMenu" className="d-md-block sidebar collapse">
           <ul className="list-group list-group-flush text-dm fw-bold mt-2">
             <li className="list-group-item border-0 ps-0 bg-black">
-              <Link to="/" className="text-decoration-none text-light">
+              <Link to="/songbird" className="text-decoration-none text-light">
                 <i className="fa-solid fa-house fa-lg pe-3"></i>Home
               </Link>
             </li>
