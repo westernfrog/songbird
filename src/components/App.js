@@ -16,7 +16,6 @@ function App() {
               <Home />
             </div>
             <div className="col-md-9 px-0">
-              <Main />
               <Routes>
                 <Route path="/songbird" element={<Main />} />
               </Routes>
