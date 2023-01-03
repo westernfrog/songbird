@@ -48,6 +48,11 @@ export default function Main(params) {
   const [song, setsong] = useState("");
   const [heart, setheart] = useState("");
 
+  const [first, setfirst] = useState(false);
+  const [second, setsecond] = useState(false);
+  const [third, setthird] = useState(false);
+  const [four, setfour] = useState(false);
+
   return (
     <>
       <main className="container bg-black text-white">
@@ -75,6 +80,7 @@ export default function Main(params) {
                     setartist("Mohit Chauhan");
                     setsong("Tum Ho");
                     setheart("💙");
+                    setfirst(true);
                   }}
                 >
                   <i className="fa-solid fa-circle-play fa-2xl" id="a"></i>
@@ -93,6 +99,7 @@ export default function Main(params) {
                     setartist("Arijit Singh");
                     setsong("Tose Naina");
                     setheart("💛");
+                    setsecond(true);
                   }}
                 >
                   <i className="fa-solid fa-circle-play fa-2xl" id="b"></i>
@@ -111,6 +118,7 @@ export default function Main(params) {
                     setartist("Arijit Singh");
                     setsong("Laal Ishq");
                     setheart("❤️");
+                    setthird(true);
                   }}
                 >
                   <i className="fa-solid fa-circle-play fa-2xl" id="c"></i>
@@ -129,6 +137,7 @@ export default function Main(params) {
                     setartist("Arijit Singh");
                     setsong("Channa Mereya");
                     setheart("💚");
+                    setfour(true);
                   }}
                 >
                   <i className="fa-solid fa-circle-play fa-2xl" id="d"></i>
@@ -152,7 +161,15 @@ export default function Main(params) {
           </div>
         </div>
       </main>
-      <Footer newartist={artist} newsong={song} newheart={heart} />
+      <Footer
+        newartist={artist}
+        newsong={song}
+        newheart={heart}
+        one={first}
+        two={second}
+        three={third}
+        four={four}
+      />
     </>
   );
 }

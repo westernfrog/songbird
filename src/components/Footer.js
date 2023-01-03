@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import song from "../Songs/song1.mp3";
+import song1 from "../Songs/song1.mp3";
 import Slider from "./slider/Slider";
 import ControlPanel from "./controls/ControlPanel";
 
@@ -69,7 +69,7 @@ export default function Footer(props) {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mb-3">
             <div class="card bg-dark border-0 text-center">
               <div class="card-header border-0 fw-bold fs-5">
                 <i
@@ -83,12 +83,13 @@ export default function Footer(props) {
                   <div className="app-container">
                     <Slider percentage={percentage} onChange={onChange} />
                     <audio
+                      className="audio"
                       ref={audioRef}
                       onTimeUpdate={getCurrDuration}
                       onLoadedData={(e) => {
                         setDuration(e.currentTarget.duration.toFixed(2));
                       }}
-                      src={song}
+                      src={song1}
                     ></audio>
                     <ControlPanel
                       play={play}
@@ -102,7 +103,7 @@ export default function Footer(props) {
             </div>
           </div>
           <div className="col-md-4">
-            <ul class="nav d-flex justify-content-lg-end justify-content-md-evenly">
+            <ul class="nav justify-content-evenly ">
               <li class="nav-item">
                 <a
                   href="https://github.com/westernfrog/"
